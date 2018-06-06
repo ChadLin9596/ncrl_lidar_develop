@@ -204,7 +204,9 @@ include_directories(
 # catkin_add_nosetests(test)
 add_executable(ros_pcl src/ros_pcl.cpp)
 target_link_libraries(ros_pcl ${catkin_LIBRARIES})
+
 add_executable(laser_odemetry src/laser_odemetry.cpp)
 target_link_libraries(laser_odemetry ${catkin_LIBRARIES})
-add_executable(potenial_field src/potenial_field.cpp)
-target_link_libraries(potenial_field ${catkin_LIBRARIES})
+
+add_executable(ros_passthrough src/ros_passthrough.cpp)
+target_link_libraries(ros_passthrough ${catkin_LIBRARIES})
