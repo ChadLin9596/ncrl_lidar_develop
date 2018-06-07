@@ -210,3 +210,6 @@ target_link_libraries(laser_odemetry ${catkin_LIBRARIES})
 
 add_executable(ros_passthrough src/ros_passthrough.cpp)
 target_link_libraries(ros_passthrough ${catkin_LIBRARIES})
+
+add_executable(ros_voxelgrid src/ros_voxelgrid.cpp)
+target_link_libraries(ros_voxelgrid ${catkin_LIBRARIES})
